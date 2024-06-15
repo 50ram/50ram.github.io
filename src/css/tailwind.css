@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card {
+  @apply w-56 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl lg:w-72 lg:h-80;
+}
+
+.cardOdd {
+  @apply bg-secondary text-white dark:bg-gray-700;
+}
+
+.cardEven {
+  @apply bg-white text-terciary dark:bg-gray-800 dark:text-gray-300;
+}
+
+.CardTitle {
+  @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white;
+}
+
+.CardDescription {
+  @apply text-lg pl-8 text-white mr-24;
+}
